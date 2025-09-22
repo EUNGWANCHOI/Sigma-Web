@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hearts2Hearts</title>
+  </head>
+  <body>
+    <h1>지우 애인 신청 서식</h1>
+    <form action="/submit" method="post">
+        <label for="name">이름을 입력하세요.</label>
+        <input type="text" id="name" name="name" placeholder="예: 최은관" />
+        <br ></br>
+      
+        <label>성별:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label label for="male">남자</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">여자</label>
+        <br /><br />
+    
+        <label for="Whether">결혼 가능 여부</label>
+        <input type="checkbox" id="Whether" name="Whether" value="Yes" />
+        <br /><br />
+
+    <div>
+        <label for="resolution">다짐을 적어주세요.</label> <br />
+        <textarea name="resolution" id="resolution" rows="4" cols="50">지우의 애인이 되기위한 다짐.</textarea>
+    </div>
+
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
